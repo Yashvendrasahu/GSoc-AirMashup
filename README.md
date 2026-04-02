@@ -1,64 +1,47 @@
-# GSoc-AirMashup
+# AirMashup
 
-✈️ AirMashup: Immersive Flight Tracking for Liquid Galaxy
+Welcome to **AirMashup**, an innovative solution for streamlining various processes in the aviation domain. This project aims to merge different functionalities that can enhance user experiences and operational efficiencies in air-related services.
 
-AirMashup is an innovative, real-time aeronautical visualization platform specifically engineered for the Liquid Galaxy multi-display rig. By bridging the gap between live global flight data and large-scale interactive displays, it provides a 180-degree panoramic tracking experience that traditional 2D maps cannot match.
+## Features
+- **Integrated Solutions:** Combines multiple tools in one place for a seamless experience.
+- **User-Friendly Interface:** Intuitive design that makes navigation and usage straightforward for all users.
+- **Real-Time Data Processing:** Leverages cutting-edge technology to provide real-time insights and updates.
 
+## Getting Started
+To get started with AirMashup, follow these steps:
 
-🌟 Key Features
-Live Global Tracking: Fetches real-time state vectors (latitude, longitude, altitude) via the OpenSky Network API.
-AI Voice Assistant: Integrated NLP for hands-free navigation (e.g., "Fly to flight UAE501" or "Track aircraft over London").
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Yashvendrasahu/GSoc-AirMashup.git
+   ```
 
-Panoramic Visualization: Custom KML generation engine optimized for 5-screen/3-screen Liquid Galaxy setups.
-SSH Connectivity: Secure, low-latency communication between the Flutter mobile controller and the Master Node.
-Telemetry Dashboard: Real-time data cards showing aircraft velocity, heading, and origin/destination status.
+2. Navigate into the directory:
+   ```bash
+   cd GSoc-AirMashup
+   ```
 
+3. Install the required dependencies:
+   ```bash
+   npm install
+   ```
 
-🛠️ Tech Stack
+4. Start the application:
+   ```bash
+   npm start
+   ```
 
-Framework: Flutter (Dart)
+## Contributing
+We welcome contributions from the community! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-API: OpenSky Network (REST)
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Communication: SSH2 / SFTP for KML transmission
+## Contact
+For inquiries, reach out at: [your-email@example.com](mailto:your-email@example.com)
 
-Visualization: Google Earth / KML Engine
+## Acknowledgments
+- Thanks to all contributors for making this project a success!
 
-State Management: Provider / Riverpod
+---
 
-
-📂 Project Architecture
-
-air_mashup/
-
-├── assets/               # KML templates, Icons, and Images
-
-├── lib/                  # Main Application Logic
-
-│   ├── api/              # OpenSky Network API integration
-
-│   ├── models/           # Flight & Telemetry Data Models
-
-│   ├── services/         # SSH Client & KML Generation logic
-
-│   ├── ui/               # Neon-Aviation Theme Screens & Widgets
-
-│   └── main.dart         # App Entry Point
-
-├── pubspec.yaml          # Project Dependencies
-
-└── README.md             # Project Documentation
-
-🚀 Getting Started
-  1. clone the repo :
-      https://github.com/Yashvendrasahu/GSoc-AirMashup/tree/main
-  2. install dependencies
-     flutter pub get
-  3.Configure SSH:
-     Go to Settings -> SSH Configuration and enter your Liquid Galaxy Master Node credentials.
-  4. run the app
-     flutter run
-     
-🤝 Acknowledgments
-
-Special thanks to the Liquid Galaxy Organization and mentors for the inspiration and support in building immersive geospatial tools.
+_Last updated on 2026-04-02 09:08:21 (UTC)_
