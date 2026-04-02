@@ -30,14 +30,23 @@ State Management: Provider / Riverpod
 📂 Project Architecture
 
 air_mashup/
+
 ├── assets/               # KML templates, Icons, and Images
+
 ├── lib/                  # Main Application Logic
+
 │   ├── api/              # OpenSky Network API integration
+
 │   ├── models/           # Flight & Telemetry Data Models
+
 │   ├── services/         # SSH Client & KML Generation logic
+
 │   ├── ui/               # Neon-Aviation Theme Screens & Widgets
+
 │   └── main.dart         # App Entry Point
+
 ├── pubspec.yaml          # Project Dependencies
+
 └── README.md             # Project Documentation
 
 🚀 Getting Started
